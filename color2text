@@ -1,0 +1,32 @@
+# Use: color2text.<color>
+# 
+# Example:
+# import color2text as clr
+# print(clr.GREEN + 'Hello world! in green' + clr.END)
+#
+#
+# Colors:
+# color2text.color.WHITE
+# color2text.color.RED
+# color2text.color.GREEN
+# color2text.color.BLUE
+# color2text.color.YELLOW
+# color2text.color.MAGENTA
+# color2text.color.CYAN
+# color2text.color.BOLD
+# color2text.color.UNDERLINE
+# color2text.color.INVERSE
+# color2text.color.END
+
+class color:
+    RED = "\u001b[0;31m"
+    GREEN = "\u001b[0;32m"
+    YELLOW = "\u001b[0;33m"
+    BLUE = "\u001b[0;34m"
+    MAGENTA = "\u001b[0;35m"
+    CYAN = "\u001b[0;36m"
+    WHITE = "\u001b[0;37m"
+    UNDERLINE = "\u001b[4m"
+    BOLD = "\u001b[1m"
+    INVERSE = "\u001b[7m"
+    END = "\u001b[0m"
